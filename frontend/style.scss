@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(-45deg, #51103c, #6e1d3d);
+
+
+    #root{
+
+        section{
+            width: 100vw;
+            height: 500px;
+            position: absolute;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    
+            .form-container{
+                width: 400px;
+                height: auto;
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: auto auto auto auto;
+                justify-content: center;
+                align-content: center;
+                border-radius: 25px;
+                font-family: 'Montserrat', sans-serif;
+                background: #f6d8c3c0;
+                box-shadow: 0px 0px 25px #858282;
+                color: #51103c;
+
+    
+                .form-element{
+                    width: 200px;
+                    height: 35px;
+                    margin: 10px 0;
+                    padding: 3px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 13px;
+                    border-radius: 10px;
+                    border: solid 1px #858282;
+                    background: #f6d8c3;
+                    
+                }
+
+                #instructions{
+                    margin-top: -30px;
+                    margin-bottom: 30px;
+                }
+
+                #name-select{
+                    width: 187px;
+                    height: 25px;
+                    padding: 5px;
+                }
+
+                .form-element:focus{
+                    outline: none;
+                }
+            }
+
+            .character-sheet{
+                width: 400px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 25px;
+                background: #f6d8c3c0;
+                box-shadow: 0px 0px 25px #858282;
+
+                #race-icon{
+                    width: 100px;
+                    height: 100px;
+                }
+
+                #char-name{
+                    width: 70%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    font-size: 30px;
+                    letter-spacing: 1px;
+                    font-family: 'Macondo', cursive;
+                    border-radius: 25px;
+                    background: #f6d8c3;
+                }
+
+                #gender-icon{
+                    width: 50px;
+                    height: 50px;
+                    margin-bottom: 20px;
+                }
+                #class-icon{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+
+        }
+
+        
+
+    }
+
+
+}
